@@ -2,3 +2,35 @@ body{
   background-color: aquamarine;
   color: blue;
 }
+a{
+  text-decoration:none;
+  color:black;
+}
+a:hover{
+  color:blueviolet;
+}
+div{
+  background-color:purple;
+  text-align:center;
+}
+.otsikko{
+  background-color:green;
+}
+.alaotsikko{
+  background-color:yellow;
+  color:black;
+}
+#etusivunnappula{
+  width:30%;
+  text-align:center;
+  background-color:red;
+  color:white;
+  margin:auto;
+}
+.seuraavasivu{
+  width:25%;
+  text-align:center;
+  background-color:hotpink;
+  color:rgb(73, 50, 205);
+  margin:auto;
+}
