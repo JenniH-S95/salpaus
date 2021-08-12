@@ -19,10 +19,13 @@ div{
 }
 .otsikko{
   background-color:green;
+  color:white;
+  text-align:center;
 }
 .alaotsikko{
   background-color:yellow;
   color:black;
+  text-align:center;
 }
 #etusivunnappula{
   width:30%;
@@ -38,3 +41,4 @@ div{
   color:rgb(73, 50, 205);
   margin:auto;
 }
+ul
