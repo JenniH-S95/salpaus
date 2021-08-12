@@ -9,6 +9,10 @@ a{
 a:hover{
   color:blueviolet;
 }
+a:active{
+  color:white;
+}
+}
 div{
   background-color:purple;
   text-align:center;
