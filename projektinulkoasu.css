@@ -1,16 +1,41 @@
 body{
   background-color:rgb(73, 73, 190);
   color:purple;
+  margin:0%;
 }
 .otsikko{
   height:50px;
-  margin:auto;
-  background-color:plum;
-  text-align: center;
+  background-color:pink;
+  text-align:center;
+  margin-bottom:10px;
 }
 .laatikko1{
-  width:500px;
   height:200px;
-  background-color:plum;
-  margin:auto;
+  width:500px;
+  padding:20px;
+  background-color:pink;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:20px;  
+}
+.laatikko2{
+  height:200px;
+  width:500px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:20px;
+}
+#nappula1{
+  background-color:black;
+  color:white;
+  width:100%;
+  padding:5px;
+  border-radius:4px;
+}
+#nappula2{
+  background-color:black;
+  color:white;
+  width:100%;
+  padding:5px;
+  border-radius:4px;
 }
