@@ -1,0 +1,16 @@
+body{
+  background-color:rgb(73, 73, 190);
+  color:purple;
+}
+.otsikko{
+  height:50px;
+  margin:auto;
+  background-color:plum;
+  text-align: center;
+}
+.laatikko1{
+  width:500px;
+  height:200px;
+  background-color:plum;
+  margin:auto;
+}
