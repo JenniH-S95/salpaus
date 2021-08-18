@@ -2,7 +2,7 @@ function laskutehtava(ekaArvo, tokaArvo){
   return ekaArvo + tokaArvo;
 }
 function pvmFin(vuosi, kk, pv){
-  return pv+"."kk+"."vuosi;
+  return ;
 }
 
 console.log("Täällä ollaan!");
@@ -50,7 +50,8 @@ console.log(pvm.split("/")[0]);
 console.log(pvm.split("/")[1]);
 console.log(pvm.split("/")[2]);
 
-console.log(pvmFin);
+console.log(pvmFin());
+
 /*
 Monen
 rivin
