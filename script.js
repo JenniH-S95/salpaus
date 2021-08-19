@@ -2,7 +2,18 @@ function laskutehtava(ekaArvo, tokaArvo){
   return ekaArvo + tokaArvo;
 }
 function pvmFin(vuosi, kk, pv){
-return "Päivämäärä oikeassa järjestyksessä on: "+pv+"."+kk+"."+vuosi+" loppuun tekstiä";
+if (kk==03 || kk==04|| kk==05){
+return "kevät: "+pv+"."+kk+"."+vuosi;
+}
+else if(kk==06|| kk==07|| kk==08){
+return "kesä: "+pv+"."+kk+"."+vuosi;
+}
+else if(kk==09|| kk==10|| kk==11){
+return "syksy: "+pv+"."+kk+"."+vuosi;
+}
+else{
+return "talvi: "+pv+"."+kk+"."+vuosi;
+}
 }
 
 console.log("Täällä ollaan!");
@@ -46,10 +57,10 @@ else{
 console.log(laskutehtava(111111, 111111));
 
 let pvm="2021/08/18";
-for(let i=0; i<15; i++){
-console.log(pvmFin(pvm.split("/")[0],pvm.split("/")[1],pvm.split("/")[2]));
-}
 
+for(let i=1; i<=15; i++){
+console.log(i+ " " +pvmFin(pvm.split("/")[0],pvm.split("/")[1],pvm.split("/")[2]));
+}
 
 
 /*
