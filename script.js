@@ -2,7 +2,7 @@ function laskutehtava(ekaArvo, tokaArvo){
   return ekaArvo + tokaArvo;
 }
 function pvmFin(vuosi, kk, pv){
-return "Päivämäärä oikeassa järjestyksessä on: "+pv+"."+kk+"."+vuosi;
+return "Päivämäärä oikeassa järjestyksessä on: "+pv+"."+kk+"."+vuosi+" loppuun tekstiä";
 }
 
 console.log("Täällä ollaan!");
@@ -46,7 +46,9 @@ else{
 console.log(laskutehtava(111111, 111111));
 
 let pvm="2021/08/18";
+for(let i=0; i<15; i++){
 console.log(pvmFin(pvm.split("/")[0],pvm.split("/")[1],pvm.split("/")[2]));
+}
 
 
 
