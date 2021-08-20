@@ -1,6 +1,7 @@
 body{
   background-color: aquamarine;
   color: blue;
+  margin:0%;
 }
 a{
   text-decoration:none;
@@ -40,4 +41,13 @@ div{
   background-color:hotpink;
   color:rgb(73, 50, 205);
   margin:auto;
+}
+
+.boksit{
+  list-style-type: none;
+}
+.koodausDiv{
+  background-color: grey;
+  color: white;
+  text-align:center;
 }

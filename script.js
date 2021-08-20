@@ -68,3 +68,11 @@ Monen
 rivin
 kommentti
 */
+
+
+//console.log(document.querySelector('#Kentta').type);
+//console.log(document.querySelector('.lisaaNappi').value);
+document.querySelector('.lisaaNappi').addEventListener('click', e =>{
+  e.preventDefault();
+  console.log(document.querySelector('#Kentta').value);
+});
