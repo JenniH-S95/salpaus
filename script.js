@@ -69,7 +69,7 @@ rivin
 kommentti
 */
 
-
+/* Tekstikentät*/
 //console.log(document.querySelector('#Kentta').type);
 //console.log(document.querySelector('.lisaaNappi').value);
 document.querySelector('.lisaaNappi').addEventListener('click', e =>{
@@ -80,6 +80,7 @@ document.querySelector('.ilmoitus').innerHTML = "<b>MiuMauMou:</b>"+ document.qu
 setTimeout(() => document.querySelector('.ilmoitus').innerHTML='', 3000);
 });
 
+/*checkboxit*/
 document.querySelector('.merkinta').addEventListener('click', e =>{
   e.preventDefault();
   console.log("nappi toimii!");
