@@ -40,4 +40,6 @@ document.querySelector(".nappula1").addEventListener('click', e =>{
     setTimeout(() => document.querySelector('.varoitus').innerHTML='', 3000);
   }
   else(document.querySelector('.tietolaatikko').innerHTML = document.querySelector('#nimi').value+": "+document.querySelector('#tieto').value);
+  setTimeout(() => document.querySelector('#Nimi').value='', 0);
+  setTimeout(() => document.querySelector('#Tieto').value='', 0);
 });
