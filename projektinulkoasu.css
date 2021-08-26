@@ -50,6 +50,7 @@ body{
   margin-bottom: 20px;
   color:black;
   background-color: pink;
+  text-indent:5px;
 }
 .varoitus{
   width:500px;
@@ -57,4 +58,6 @@ body{
   margin-right:auto;
   color:white;
   background-color:red;
+  border-radius: 4px;
+  text-align: center;
 }
